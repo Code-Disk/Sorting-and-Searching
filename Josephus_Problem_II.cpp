@@ -27,8 +27,8 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n = 0, k = 1, index = 0;
-    cin >> n;
+    int n = 0, k =0, index = 0;
+    cin >> n >> k;
     ordered_set children;
     for (int i = 1; i <= n; i++)
         children.insert(i);
